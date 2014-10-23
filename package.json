@@ -3,23 +3,25 @@
   "version": "0.0.1",
   "description": "browserify transform to remove UTF-8 byte order mark from all files before bundling",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/MichailSmith/debomify.git"
   },
   "keywords": [
     "browserify",
-    "BOM"
+    "BOM",
+    "browserify-transform"
   ],
   "author": "Michail Smith",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/MichailSmith/debomify/issues"
   },
+  "dependencies": {
+    "strip-bom": "~1.0.0",
+    "through": "~2.3.6"
+  },
   "devDependencies": {
-    "strip-bom": "~1.0.0"
+    "mocha": "~2.0.1"
   }
 }

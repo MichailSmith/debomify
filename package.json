@@ -1,6 +1,6 @@
 {
-  "name": "debomify",
-  "version": "0.0.1",
+  "name": "strip-bomify",
+  "version": "0.1.0",
   "description": "browserify transform to remove UTF-8 byte order mark from all files before bundling",
   "main": "index.js",
   "repository": {
